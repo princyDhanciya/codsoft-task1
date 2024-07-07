@@ -1,0 +1,159 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  
+}
+
+header {
+    background:#ee2a7b;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.section {
+    padding: 20px 0;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service {
+    flex: 1;
+    margin: 0 20px;
+    padding: 20px;
+    border: 1px solid #e4e4e4;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.service h3 {
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-group {
+    margin: auto;
+    width: 35%;
+
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e4e4e4;
+    border-radius: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #7c7476;
+    color: #fffbfd;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+    margin:auto;
+}
+
+button:hover {
+    background: #eb24a9;
+}
+
+footer {
+    background: #e63085;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    border-top: #c44173 3px solid;
+}
+
+
+.center{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:25%;
+
+}
+h1{
+    text-align:center;
+}
+.service:hover{
+    background: linear-gradient(#f0b5d2,#ffe9ec);
+    
+}
+body{
+    background-image: linear-gradient(to bottom ,
+    #f0b8cf 0%,
+    #f186af 50%,
+    #ebe1e5 50%,
+    #f1e3e9 10%
+
+    );
+    height:115vh;
+}
+.services{
+    outline: #e4369c 3px solid;
+}
